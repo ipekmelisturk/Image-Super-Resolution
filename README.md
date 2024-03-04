@@ -3,3 +3,5 @@ The goal of this project was to compare older, simpler convolutional neural netw
 
 The HAT model is implemented in the local Pytorch. The biggest challenges we faced were due to hardware constraints since HAT works with 8 GPUs yet we only had 1. So various implementations have been tested to reduce computational complexity without compromising the model. 
 The model implementation enables you to change the path, dataset, parameter, depth, optimizer, total iteration. The challenge was to start the code training. The model is firstly fine-tuned pre-trained model that uses ImageNet dataset and then it is trained using only FFHQ dataset.
+
+![image](https://github.com/ipekmelisturk/Image-Super-Resolution/assets/91199985/fde0a4c5-c3e8-469d-9c74-6f868ab3c87b)
